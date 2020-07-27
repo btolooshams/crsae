@@ -1,0 +1,86 @@
+# Latex related
+**/*.aux
+**/*.bbl
+**/*.bib.bak
+**/*.blg
+**/*.cls.bak
+**/*.dvi
+**/*.log
+**/*.nav
+**/*.snm
+**/*.out
+**/*.synctex.gz
+**/*.synctex.gz(busy)
+**/*.tex.bak
+**/*.tikz.bak
+**/*.toc
+
+# Jupyter notebooks
+**/.ipynb_checkpoints
+
+# Python
+**/__pycache__
+**/*.pyc
+
+# Lyx backup files
+**/*.lyx~
+
+# Byte-compiled / optimized / DLL files
+**/*.py[cod]
+**/*.pytest_cache
+
+# C extensions
+**.so
+
+# Unit test / coverage reports
+**/htmlcov/
+**/.tox/
+**/.coverage
+**/.coverage.*
+**/.cache
+**/nosetests.xml
+**/coverage.xml
+**/*,cover
+
+# Translations
+**/*.mo
+**/*.pot
+
+# Log files:
+**/*.log
+
+# Sphinx documentation
+**/docs/_build/
+
+# PyBuilder
+**/target/
+
+# DotEnv configuration
+**/.env
+
+# Database
+**/*.db
+**/*.rdb
+
+# Pycharm
+**/.idea
+
+# VS Code
+**/.vscode
+
+# Spyder
+**/.spyproject
+
+# Mac OS-specific storage files
+**/.DS_Store
+
+# exclude model weights stored for training purposes
+**/*.hdf5
+
+# exclude data
+**/data
+data.h5
+data_new.h5
+
+# Deprecated code
+**/old
