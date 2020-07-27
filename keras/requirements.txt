@@ -3,7 +3,7 @@ scipy==1.1.0
 matplotlib==2.2.2
 seaborn==0.8.1
 numpy==1.14.2
-tensorflow===2.0.0
+tensorflow===2.0.1
 Keras==2.2.0
 click==6.7
 pytest==3.6.3
