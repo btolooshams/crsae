@@ -1,5 +1,5 @@
 """
-Copyright (c) 2020 CRISP
+Copyright (c) 2020 Bahareh Tolooshams
 
 train
 

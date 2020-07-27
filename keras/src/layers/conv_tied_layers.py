@@ -1,5 +1,5 @@
 """
-Copyright (c) 2018 CRISP
+Copyright (c) 2020 Bahareh Tolooshams
 
 Custom layer to do flip of another conv layer.
 

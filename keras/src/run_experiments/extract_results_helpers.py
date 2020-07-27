@@ -1,5 +1,5 @@
 """
-Copyright (c) 2019 CRISP
+Copyright (c) 2020 Bahareh Tolooshams
 
 helper functions for extract_results.py
 

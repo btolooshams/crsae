@@ -1,5 +1,5 @@
 """
-Copyright (c) 2018 CRISP
+Copyright (c) 2020 Bahareh Tolooshams
 
 Custom layer to do ISTA or FISTA for convolutional dictionary.
 

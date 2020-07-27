@@ -1,5 +1,5 @@
 """
-Copyright (c) 2019 CRISP
+Copyright (c) 2020 Bahareh Tolooshams
 
 functions to extract experiment results save in results*.h5.
 
