@@ -1,0 +1,12 @@
+
+# data
+mode: 'simulated'
+num_train: 100
+num_test: 10
+distribution: 'norm'
+sampling_rate: 10000
+firing_rate_range: [10,30]
+amp_range: [120,150]
+std_range: [10,12]
+ch: 0
+snr: 16.00

@@ -1,0 +1,43 @@
+# model parameters
+input_dim: 1000
+num_conv: 4
+dictionary_dim: 10
+num_iterations: 50
+L: 10
+twosided: True
+num_channels: 1
+data_space: 1
+
+# training related
+num_epochs: 10
+batch_size: 256
+lr: 0.01
+min_delta: 0.0000001  # early stopping parameter
+patience: 300         # early stopping parameter
+alpha: 1.0           # this is for over-estimation of lambda
+amsgrad: True
+lambda_trainable: False
+lambda_single: True
+lambda_EM: False
+lambda_lr: 1
+lambda_prior: 'gamma'
+delta: 50
+noiseSTD_trainable: False
+noiseSTD_lr: 0.01
+# for cyclic lr
+cycleLR: False
+cycle_mode: 'exp_range'
+gamma: 0.999
+base_lr: 0.02
+max_lr: 0.03
+step_size: 10        # approx (6 to 8)*(val_split*num_train)/batch_size
+verbose: 2
+val_split: 0.9
+loss: 'mse'
+optimizer: 'adam'
+beta_1: 0.9
+beta_2: 0.999
+decay: 1
+close: 1
+augment: False
+loss_type: 'val_loss' # monitor for best learned parameters
