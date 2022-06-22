@@ -2,7 +2,7 @@ h5py==2.8.0
 scipy==1.1.0
 matplotlib==2.2.2
 seaborn==0.8.1
-numpy==1.14.2
+numpy==1.22.0
 tensorflow===2.0.0
 Keras==2.2.0
 click==6.7
